@@ -1,0 +1,289 @@
+
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>क्षेत् | उत्तर प्रदेश</title>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	
+	<style>
+	 	
+	 	body{
+	 	
+		background : url('bg.jpg');
+		background-size: cover;
+		
+		
+	}
+	.navbar{
+		font-size: 1.2em;
+		}
+  .navbar-brand{
+	font-size: 1.8em;
+	}
+ .our-team
+ {
+ 	padding: 30px 0 40px;
+ 	background: white;
+ 	text-align: center;
+ 	overflow: hidden;
+ 	position: relative;
+ }
+.our-team .pic
+{
+	display: inline-block;
+	width: 130px;
+	height: 130px;
+	margin-bottom: 50px;
+	
+	position: relative;
+	z-index: 1;
+}
+
+.our-team .pic:before
+{
+	content: "";
+	width: 100%;
+	background:#eb1768;
+	position: absolute;
+	bottom: 135%;
+	right: 0;
+	left: 0;
+	transform:scale(3);
+	transition: all 0.3s linear 0s; 
+}
+
+.our-team:hover .pic:before
+{
+	height:100%;
+}
+
+.our-team .pic:after 
+{
+
+	content="";
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	background: #ee4266;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.our-team .pic img
+{
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+	transform: scale(1);
+	transition: all 0.9s ease 0s;
+} 
+
+.our-team:hover .pic img
+{
+	box-shadow: 0 0 0 14px #f7f5ec;
+	transform: scale(0.7);
+}
+
+.our-team .team-content
+{
+	margin-bottom: 30px;
+}
+
+.our-team .title
+{
+	font-size: 22px;
+	font-weight: 700;
+	color: #4e5052;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	margin-bottom: 5px;
+}
+
+.our-team .post 
+{
+	display: block;
+	font-size: 15px;
+	color: #4e5052;
+	text-transform: capitalize;
+}
+
+/*
+.our-team .social{
+width: 100%;
+padding:0;
+margin:0;
+background: #eb1768;
+position: absolute;
+bottom:-100px;
+left:0;
+transition: all 0.5s ease 0s;
+text-align: center;
+}
+*/
+
+
+.our-team:hover .social{
+bottom:0;
+}
+
+.our-team .social li{
+display:block;
+}
+.our-team .social li a{
+display: block;
+padding: 10px;
+font-size:17px;
+color:black;
+transition: all0.3s ese 0s;
+}
+
+.our-team .social li a:hover{
+color: #eb1768;
+background:#f7f5ec;
+text-decoration:none;
+}
+
+
+		
+	</style>
+</head>
+
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">गृहलक्ष्मी</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto mr-5 px-3">
+      <li class="nav-item ">
+        <a class="nav-link" href="Hindi.html">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">संपर्क करें</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="sign_in.html">साइन इन</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="sign_up.html">साइन अप</a>
+      </li>
+     </ul>
+    
+  </div>
+</nav>
+</header>
+
+  <br><br>
+
+
+   <div class="container">
+   	<div class="row">
+
+ 
+   		<div class="col-md-3 col-sm-6 col-12">
+   			<div class="our-team">
+				<div class="pic">
+   				<img src="profile_pic1.jpg"><!--Image credits: https://unsplash.com/photos/B4TjXnI0Y2c  -->
+				</div>
+				<div class="team-content">
+   				<br>
+   				<h3 class="title">अंजू</h3>
+   				<span class="post">उत्तर प्रदेश</span>
+				<span class="post">आगरा</span>
+				</div>
+				<ul class="social" >
+   		    	<li><a>खाना बनाना</a></li>
+   			    </ul>
+   			    <a href=# class="btn btn-primary btn-lg active text-center" role="button" aria-pressed="true">जुडिये</a>
+			</div>
+		</div>
+  
+
+		<div class="col-md-3 col-sm-6 col-12">
+   			<div class="our-team">
+			<div class="pic">
+   				<img src="profile_pic3.jpg"><!--Image credit: https://www.pexels.com/photo/woman-smiling-at-the-camera-1181686/ -->
+   			</div>
+   			<div class="team-content">
+   				<br>
+   				<h3 class="title">नीतू</h3>
+   				<span class="post">उत्तर प्रदेश</span>
+				<span class="post">गोरखपुर</span>
+   		    </div>
+   		    <ul class="social" >
+   		    	<li><a>सिलाई</a></li>
+   		    	
+   			    </ul>
+   			    <a href=# class="btn btn-primary btn-lg active text-center" role="button" aria-pressed="true">जुडिये</a>
+   	</div>
+</div>
+
+   		<div class="col-md-3 col-sm-6 col-12">
+   			<div class="our-team">
+			<div class="pic">
+   				<img src="profile_pic2.jpg"><!--Image credits: https://www.pexels.com/photo/woman-in-black-scoop-neck-shirt-smiling-38554/-->
+   			</div>
+   			<div class="team-content">
+   				<br>
+   				<h3 class="title">सीमा</h3>
+   				<span class="post">उत्तर प्रदेश</span>
+				<span class="post">गाज़ियाबाद</span>
+   		    </div>
+   		    <ul class="social" >
+   		    	<li><a>खाना बनाना</a></li>
+   			    </ul>
+   			    <a href=# class="btn btn-primary btn-lg active text-center" role="button" aria-pressed="true">जुडिये</a>
+			</div>
+</div>
+
+
+		<div class="col-md-3 col-sm-6 col-12">
+   			<div class="our-team">
+   				<!--Yahan par ana chaiye <div class="pic"> -->
+				<div class="pic">
+   				<img src="profile_pic.jpg">
+				</div>
+				<div class="team-content">
+   				<br>
+   				<h3 class="title">नीता देवी</h3>
+   				<span class="post">उत्तर प्रदेश</span>
+				<span class="post">मेरठ</span>
+				</div>
+				<ul class="social" >
+   		    	<li><a>सिलाई</a></li>
+   			    </ul>
+   			    <a href=# class="btn btn-primary btn-lg active text-center" role="button" aria-pressed="true">जुडिये</a>
+			</div>
+		</div>
+
+
+  </div>
+</div>
+
+
+	<footer>
+	<div class="pt-5">
+	<p class="text-center bg-dark text-white">सारंग द्वारा प्यार से बनाया गया</p>
+</div>
+</footer>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+	</body>
+	</html>
